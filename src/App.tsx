@@ -1,13 +1,14 @@
 import "./App.css";
+import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/home";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <>
-      <Home
-        titulo="Componente Home"
-        texto="Este é o componente Home, que recebe props."
-      />
+      <Navbar />
+      <Home />
+      <Footer />
     </>
   );
 }
